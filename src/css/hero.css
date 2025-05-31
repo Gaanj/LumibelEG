@@ -252,12 +252,10 @@
 }
 
 @media screen and (min-width: 1440px) {
-
-}
-
 .hero-image-girl {
   border-radius: 4px;
   background: lightgray 50% / cover no-repeat;
+}
 }
 @media screen and (min-width: 375px) {
   .hero-image-girl {
@@ -332,10 +330,6 @@
   .hero-image-shirt {
     display: block;
     bottom: -80px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .hero-image-shirt {
   }
 }
 @media screen and (min-width: 1280px) {
