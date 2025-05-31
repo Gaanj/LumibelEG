@@ -105,32 +105,7 @@
   .part-hero-title {
     color: #ecd979;
   }
-  .hero-button {
-    background-color: transparent;
-    display: flex;
-    display: inline-flex;
-    padding: 14px 36px;
-    margin-left: 70px;
-    margin-bottom: 40px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.1);
-    color: #fcf9f9;
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-    transition: border 250px linear;
-  }
-  .hero-button-icon {
-    fill: var(--yellow);
-  }
-  .hero-button:hover,
-  .hero-button:focus {
-    border: 1px solid var(--yellow);   
-  }
+  
 }
 @media screen and (min-width: 768px) {
   .hero-title {
@@ -146,32 +121,7 @@
   .part-hero-title {
     color: #ecd979;
   }
-  .hero-button {
-    background: #1c2225;
-    display: inline-flex;
-    padding: 14px 39px;
-    margin-left: 141px;
-    margin-bottom: 40px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.1);
-    color: #fcf9f9;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-    transition: border 250px linear;
-  }
-  .hero-button-icon {
-    fill: #ecd979;
-  }
-  .hero-button:hover,
-  .hero-button:focus {
-    border-radius: 15px;
-    border: 1px solid var(--yellow, #ecd979);
-  }
+  
   .hero-image-girl {
     border-radius: 4px;
   }
@@ -300,52 +250,11 @@
     letter-spacing: -1.92px;
   }
 }
-.hero-button {
-  color: var(--white);
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: -0.64px;
-  text-transform: uppercase;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  padding: 14px 39px;
-  border-radius: 15px;
-  border: 1px solid rgba(252, 249, 249, 0.1);
-  width: 169px;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  margin-left: 30px;
-  
-  transition: border 250ms linear;
-}
-@media screen and (min-width: 375px) {
-  .hero-button {
-    margin-left: 70px;
-  }
+
+@media screen and (min-width: 1440px) {
+
 }
 
-@media screen and (min-width: 768px) {
-  .hero-button {
-    margin-top: 40px;
-    margin-left: 141px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .hero-button {
-    margin-top: 54px;
-  }
-}
-.hero-button:hover,
-.hero-button:focus {
-  border: 1px solid #ecd979;
-}
-.hero-button-icon {
-  margin-left: 10px;
-}
 .hero-image-girl {
   border-radius: 4px;
   background: lightgray 50% / cover no-repeat;
